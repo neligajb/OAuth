@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OAuth 2 Callback</title>
+    <link type="text/css" rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="main-wrapper">
+        <h1>Yay!</h1>
+        <h2>User Data</h2>
+        <hr>
+        <h3>Name: {{ response["name"]["givenName"] }} {{ response["name"]["familyName"] }}</h3>
+        <h3>Google+ URL: <a target="_blank" href="{{ response["url"] }}" title="Google+">{{ response["url"] }}</a></h3>
+    </div>
+</body>
+</html>

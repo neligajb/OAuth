@@ -1,0 +1,25 @@
+body {
+  font-family: Palatino, "Times New Roman", serif;
+}
+#main-wrapper {
+  padding: 60px 10%;
+}
+#main-wrapper h1 {
+  margin-bottom: 0;
+}
+#main-wrapper .auth-link {
+  margin-top: 40px;
+}
+#main-wrapper .auth-link a {
+  background-color: cadetblue;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid cadetblue;
+  transition: .2s all ease;
+  text-decoration: none;
+}
+#main-wrapper .auth-link a:hover {
+  background-color: white;
+  color: cadetblue;
+}
